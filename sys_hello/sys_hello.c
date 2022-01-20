@@ -9,5 +9,8 @@ int main(int argc,char *argv[])
 	
 	printf("hello world!\n");
 
+	//自身的可执行文件也算一个参数
+	printf("argc is %d",argc);
+
 	return 0;
 }
